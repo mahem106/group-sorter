@@ -1,0 +1,55 @@
+body {
+	background-color: gray;
+}
+h1 {
+	font-family: cursive;
+	color: black;
+}
+
+h2, h3 {
+	text-align: left;
+	font-family: cursive;
+}
+
+#numCups {
+	min-width: 150px;
+}
+.cup {
+	height: 94px;
+	width: 94px;
+	background-color: black;
+	border: 1px solid #000;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 15px;
+	font-size: large;
+	font-family: fantasy;
+	color: white;
+}
+
+#group1, #group2, #group3, #group4 {
+	border: 2px solid #FFF;
+	display: table-cell;
+	min-width: 600px;
+	max-width: 601px;
+	min-height: 200px;
+}
+
+.selected {
+	height: 90px;
+	width: 90px;
+	border: 5px solid red;
+	margin: 0px;
+}
+/*.centered {
+	display: inline-block;
+	vertical-align: middle;
+}*/
+.text {
+	font-weight: bold;
+	font-family: cursive;
+	text-align: center;
+	display: inline;
+}

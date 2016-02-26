@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Group Sorter</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-2.2.1.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+<h1>Which Group Has The Most Cool Points?!</h1>
+<input type="text" name="Names" id="nameField" placeholder="Put name here!">
+<input type="number" id="numCups" placeholder="How many cool points?">
+	<button id="addCup">Add</button>
+
+
+	<div id='container'>
+		<table border="1" cellspacing="0">
+			<tr>
+				<td height="120" width="120" align="center" valign="center" id="group1" class="col0 row0">
+					<h2>Everybody</h2>
+					<h3><span id='amount1'></span></h3>
+				</td>
+				<td height="120" width="120" align="center" valign="center" id="group2" class="col1 row0">
+					<h2>Cool Kids</h2>
+					<h3><span id='amount2'></span></h3>
+				</td>
+			</tr>
+			<tr>
+				<td height="120" width="120" align="center" valign="center" id="group3" class="col0 row1">
+					<h2>Nerds</h2>
+					<h3><span id='amount3'></span></h3>
+				</td>
+				<td height="120" width="120" align="center" valign="center" id="group4" class="col1 row1">
+					<h2>Geeks</h2>
+					<h3><span id='amount4'></span></h3>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="centered">
+		<br>
+		<span class="text">Single-Click to Select<br>Double-Click to Remove</span>
+		</br>
+	</div>
+	
+	
+</body>
+</html>
